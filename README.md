@@ -6,6 +6,7 @@ This repository serves as a comprehensive documentation of my technical journey 
 ![Cloud](https://img.shields.io/badge/Cloud-Azure-blue)
 ![IaC](https://img.shields.io/badge/IaC-Bicep-blueviolet)
 [![Certification: AZ-900](https://img.shields.io/badge/Certification-AZ--900-green)](https://learn.microsoft.com/en-us/users/jacobadedoyin-7806/transcript/7kngmcp55pmy5w5)
+[![Certification: SC-900](https://img.shields.io/badge/Certification-SC--900-purple)](https://learn.microsoft.com/en-us/users/jacobadedoyin/credentials/e9152f9c99da0475)
 
 ---
 
@@ -19,6 +20,14 @@ This repository serves as a comprehensive documentation of my technical journey 
 * **Project 03:** [PaaS & CI/CD](./AZ900/03-PaaS-Automation-Deployment/) — Automating web deployments via GitHub Actions pipelines.
 * **Key Skills:** Cloud Service Models (IaaS/PaaS/SaaS), Governance, FinOps, Shared Responsibility.
 * **Credentials:** [Official Microsoft Transcript](https://learn.microsoft.com/en-us/users/jacobadedoyin/transcript/7kngmcp55pmy5w5)
+
+---
+
+## 🟪 [SC-900: Security, Compliance, and Identity Fundamentals](./SC900/) ✅
+*Exploration of Microsoft security solutions, identity management, and compliance across cloud environments.*
+
+* **Key Skills:** Zero-Trust Methodology, Microsoft Entra ID (Identity), Cloud Security Posture Management (CSPM), Compliance Manager, and Microsoft Defender.
+* **Credentials:** [Official Microsoft Certificate](https://learn.microsoft.com/en-us/users/jacobadedoyin/credentials/e9152f9c99da0475)
 
 ---
 
@@ -37,7 +46,7 @@ This repository serves as a comprehensive documentation of my technical journey 
 ## 🛠️ Technical Stack
 * **Infrastructure as Code (IaC):** Azure Bicep
 * **Command Line:** Azure CLI, PowerShell
-* **Security:** Zero-Trust Methodology, Private Endpoints
+* **Security:** Zero-Trust Methodology, Private Endpoints, Microsoft Defender
 * **Governance:** Azure Policy, Resource Locks
 
 ---
@@ -50,4 +59,5 @@ This repository serves as a comprehensive documentation of my technical journey 
 
 ## 🎯 Current Objectives
 - [x] AZ-900 Fundamentals (Completed Jan 2026)
+- [x] SC-900 Security Fundamentals (Completed Apr 2026)
 - [ ] AZ-104 Administrator Associate (In Progress)
