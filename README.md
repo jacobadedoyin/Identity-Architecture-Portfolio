@@ -12,7 +12,7 @@ This repository documents my technical journey and engineering projects across e
 
 ## 🏢 Professional Highlights
 
-### [Technical Implementation Lead: SDA MFA](./Professional/SDA-MFA/)
+### [Technical Implementation Lead: Secure Data Access MFA Tool](./Professional/SDA-MFA/)
 *End-to-end technical rollout and governance of an enterprise Multi-Factor Authentication platform.*
 * **Engineering:** Configured security policies, authentication controls, and enterprise-wide deployment.
 * **Standardisation:** Authored the technical SOPs and troubleshooting frameworks established as the departmental standard.
