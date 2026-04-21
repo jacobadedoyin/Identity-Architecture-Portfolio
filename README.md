@@ -1,53 +1,73 @@
 # Identity Architecture Portfolio
 
-Focused on designing and implementing secure identity solutions for **regulated environments**, with an emphasis on **access governance, authentication controls, and risk reduction**.
+This repository represents an **Identity & Access Management (IAM) engineering portfolio**, focused on designing and implementing secure identity systems across **Azure and Okta** for **regulated enterprise environments**.
 
-![Cloud](https://img.shields.io/badge/Cloud-Azure-blue)
-![Identity](https://img.shields.io/badge/Identity-Entra_ID_|_Okta-black)
-![Security](https://img.shields.io/badge/Security-MFA_|_Zero_Trust-green)
-[![Certification: AZ-900](https://img.shields.io/badge/Certification-AZ--900-green)](https://learn.microsoft.com/)
-[![Certification: SC-900](https://img.shields.io/badge/Certification-SC--900-purple)](https://learn.microsoft.com/)
+It demonstrates practical capability across:
+
+- Identity governance and lifecycle management  
+- Role-Based Access Control (RBAC) design  
+- Multi-Factor Authentication (MFA) enforcement  
+- Conditional Access and policy-based security controls  
+- Cross-platform identity management (Azure + Okta)  
+- Access governance aligned to compliance and risk requirements  
 
 ---
 
-## Enterprise IAM Experience
+## 🧠 Portfolio Architecture
 
-### Technical Implementation Lead: Enterprise MFA Implementation
+This portfolio is structured across four IAM engineering domains:
 
-Led the implementation and operational integration of an enterprise **Multi-Factor Authentication (MFA)** solution, strengthening authentication controls, improving access governance, and reducing risk across business-critical systems.
+### 🔐 Identity Architecture (Design Layer)
+- IAM system design for financial and regulated environments  
+- Access control modelling and RBAC strategy  
+- Security boundary definition using identity principles  
+
+### ⚙️ Governance Engineering (Control Layer)
+- Azure identity governance implementation  
+- Conditional Access policy enforcement  
+- MFA and access policy configuration  
+
+### ☁️ Cloud Identity Foundations (Infrastructure Layer)
+- Azure Entra ID configuration and administration  
+- Network and compute security foundations  
+- Identity integration with cloud services  
+
+### 🔐 SaaS Identity Management (Okta Layer)
+- Application SSO integration  
+- MFA and sign-on policy enforcement  
+- Group-based access control in SaaS environments  
+
+---
+
+## 🏛️ Enterprise IAM Experience
+
+### Technical Implementation: MFA & Access Governance
+
+Delivered enterprise-grade authentication and access control improvements through implementation of Multi-Factor Authentication (MFA) and identity lifecycle governance processes.
 
 #### Key Contributions
-- Designed and implemented authentication policies to support secure access for internal and external users  
-- Embedded MFA into identity lifecycle processes (JML), strengthening governance and reducing access risk  
-- Authored SOPs and self-service guidance, standardising identity operations and reducing support overhead  
-- Supported controlled rollout across business systems, ensuring minimal disruption and alignment with security requirements  
-
-#### Core IAM Themes
-- Authentication engineering  
-- Identity lifecycle governance  
-- Access control and policy enforcement  
-- Operational standardisation  
-- Secure provisioning and deprovisioning  
+- Implemented authentication policies for secure internal and external access  
+- Integrated MFA into identity lifecycle (Joiners, Movers, Leavers)  
+- Standardised identity operations through documentation and SOPs  
+- Supported secure access to sensitive enterprise systems  
+- Reduced access risk through least privilege enforcement  
 
 ---
 
-## What This Portfolio Demonstrates
+## 🎯 Core IAM Capabilities Demonstrated
 
-- Practical experience delivering IAM solutions in enterprise environments  
-- Strong understanding of identity lifecycle, access governance, and authentication controls  
-- Ability to design secure access models aligned to least privilege and Zero Trust principles  
-- Experience supporting secure access to sensitive data within regulated environments  
-- Progression from operational IAM delivery to architecture-level thinking  
+- Identity lifecycle management (JML)  
+- RBAC design and implementation  
+- MFA and Conditional Access enforcement  
+- Access governance and audit readiness  
+- Secure identity architecture design  
+- Cross-platform IAM (Azure + Okta)  
 
 ---
 
-## Portfolio Overview
+## 📌 Portfolio Structure
 
-### Enterprise IAM Project
-- [IAM Architecture for Financial Data Access Control](./iam-architecture-financial-data-access-control/)
-
-### Azure Identity, Security & Governance Foundations
-- [Azure Identity Security Foundations](./azure-identity-security-foundations/)
-
-### Azure Identity & Governance Engineering
-- [Azure Identity Governance Engineering](./azure-identity-governance-engineering/)
+- Azure Identity Security Foundations → cloud IAM baseline  
+- Azure Identity Governance Engineering → policy + enforcement layer  
+- Identity Architecture (Financial Access Control) → system design  
+- Okta Identity Management → SaaS IAM implementation  
