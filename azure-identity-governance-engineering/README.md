@@ -1,56 +1,79 @@
-# ☁️ Microsoft Azure Administrator Portfolio (AZ-104)
-**Advanced Implementation of Identity, Governance, Networking, and Compute**
+# ☁️ Azure Identity & Governance Engineering
+**Advanced Implementation of Identity, Access Control, Networking, and Secure Cloud Operations**
 
 ---
 
-## 📌 Executive Summary
-This repository documents my execution of advanced administrative tasks within Microsoft Azure. Moving beyond fundamentals, these projects demonstrate my ability to **manage identities**, **architect secure hybrid networks**, **enforce governance**, and **automate compute resources** in a production-simulated environment.
+## 📌 Overview
+
+This repository demonstrates advanced Azure implementations with a focus on **identity, access governance, and secure infrastructure design**.
+
+The projects move beyond foundational concepts to showcase **real-world administrative and engineering scenarios**, including identity lifecycle management, secure network architecture, policy-driven governance, and resilient compute design.
+
+The work reflects enterprise-level considerations such as **least privilege access, defence in depth, and operational scalability**.
 
 ---
 
-## 🏗️ Featured Projects
+## 🏗️ Project Overview
 
-| Project | Focus Area | Key Technologies |
-| :--- | :--- | :--- |
-| **[Project 01: Identity & Governance](./01-Identity-and-Governance/)** | Entra ID Automation | Entra ID, RBAC, Azure Policy, PowerShell|
-| **[Project 02: Storage & Containers](./02-Storage-and-Data-Protection/)** | **Data Persistence & Compliance** | Immutable Storage (WORM), **Azure Container Instances (ACI)**, File Shares |
-| **[Project 03: Network Architecture](./03-Virtual-Network-and-Traffic-Management/)** | Secure Traffic Flow | Hub-and-Spoke, Global VNet Peering, User-Defined Routes (UDR) |
-| **[Project 04: Compute & Operations](./04-Compute-and-High-Availability/)** | **High Availability & DR** | VM Scale Sets (VMSS), Load Balancer, **Recovery Services Vault**, **Azure Monitor**  Terraform|
-
----
-
-## 🛠️ Technical Skills Matrix
-
-### 🔐 Identity & Governance
-* **Hybrid Identity:** Managing users and groups via Microsoft Entra ID (formerly Azure AD).
-* **Policy Enforcement:** Authoring JSON-based Azure Policies to enforce compliance (e.g., SKU restrictions).
-* **Access Control:** Implementing Granular RBAC and Custom Roles for "Least Privilege" access.
-
-### 🌐 Networking & Security
-* **Traffic Management:** Designing segmentation using NSGs, ASGs, and Firewall rules.
-* **Connectivity:** Implementing VNet Peering and VPN Gateway logic for hybrid connectivity.
-* **Load Balancing:** Configuring Layer-4 (Load Balancer) and Layer-7 (App Gateway) traffic distribution.
-
-### ⚙️ Compute, Storage & Containers
-* **Autoscaling:** Configuring Virtual Machine Scale Sets (VMSS) to handle traffic spikes dynamically.
-* **Containerization:** Deploying **Azure Container Instances (ACI)** with persistent volume mounts (Azure Files).
-* **Disaster Recovery (DR):** Implementing **Azure Backup** policies and Recovery Services Vaults for business continuity.
-* **Observability:** Configuring **Azure Monitor** alerts to detect and respond to CPU spikes and health probes.
+| Project | Focus Area | Key Concepts | IAM / Security Relevance |
+| :--- | :--- | :--- | :--- |
+| **[Identity & Access Governance](./01-identity-and-access-governance/)** | Identity Management | Entra ID, RBAC, Azure Policy, PowerShell | Identity lifecycle, role design, access governance |
+| **[Data Protection & Secure Storage](./02-data-protection-and-secure-storage/)** | Data Security | Immutable Storage, Azure Files, ACI | Data protection, compliance, secure data access |
+| **[Network Security & Traffic Control](./03-network-security-and-traffic-control/)** | Network Architecture | Hub-Spoke, VNet Peering, UDR | Segmentation, controlled traffic flow, access boundaries |
+| **[Secure Compute & Resilience](./04-secure-compute-and-resilience/)** | Compute & Operations | VMSS, Load Balancer, Backup, Monitor | Availability, resilience, operational security |
 
 ---
 
-## 🧠 Core Competencies Validated
-Through these complex labs, I have validated proficiency in the critical domains 
-* **Manage Azure Identities and Governance** 
-* **Implement and Manage Storage** 
-* **Deploy and Manage Azure Compute Resources** 
-* **Configure and Manage Virtual Networking** 
-* **Monitor and Maintain Azure Resources** 
+## 🔐 Identity, Security & Governance Focus
+
+### Identity & Access
+- Managing identities and groups within **Microsoft Entra ID**  
+- Implementing **Role-Based Access Control (RBAC)** aligned to least privilege  
+- Supporting identity lifecycle and access governance processes  
+
+### Governance & Compliance
+- Authoring and applying **Azure Policies** to enforce organisational standards  
+- Implementing controls to prevent misconfiguration and enforce compliance  
+- Aligning governance with operational and financial accountability  
+
+### Network & Infrastructure Security
+- Designing segmented networks to reduce lateral movement risk  
+- Controlling inbound and outbound traffic using NSGs and routing  
+- Applying **defence-in-depth principles** across infrastructure layers  
+
+### Compute, Monitoring & Resilience
+- Implementing scalable compute using VM Scale Sets  
+- Configuring monitoring and alerting using Azure Monitor  
+- Supporting business continuity through backup and recovery solutions  
 
 ---
 
-**🚀 Current Status:** Practical labs complete.  
-**🎓 Certification Path:** AZ-104 Microsoft Azure Administrator
+## 🧠 Core Capabilities Demonstrated
+
+- Identity and access governance in cloud environments  
+- Secure infrastructure design aligned to Zero Trust principles  
+- Policy-driven governance and compliance enforcement  
+- Network segmentation and controlled traffic flow  
+- Scalable and resilient cloud operations  
 
 ---
+
+## 🎯 Purpose
+
+This repository demonstrates capability in:
+
+- Identity and Access Management (IAM)  
+- Access Governance  
+- Cloud Security Engineering  
+
+with a focus on **secure, scalable, and well-governed cloud environments**.
+
+---
+
+## 🎓 Certification Context
+
+Aligned with **Microsoft Azure Administrator (AZ-104)**, with emphasis on **practical implementation rather than exam-focused coverage**.
+
+---
+
 *Maintained by Jacob Adedoyin*
