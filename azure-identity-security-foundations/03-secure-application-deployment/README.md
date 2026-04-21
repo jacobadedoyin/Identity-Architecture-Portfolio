@@ -1,72 +1,110 @@
-# Project 03: 🌐 Azure Static Web Apps & CI/CD Automation
+# 🌐 Project 03: Secure Application Deployment & CI/CD Control
 
-<a href="https://azure.microsoft.com/en-us/services/static-web-apps/"><img src="https://img.shields.io/badge/☁️_PAAS_ARCHITECTURE-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white" height="50"></a>
-<a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/_CI/CD_AUTOMATION-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" height="50"></a>
-<a href="https://en.wikipedia.org/wiki/Serverless_computing"><img src="https://img.shields.io/badge/⚡_SERVERLESS_HOSTING-00ca53?style=for-the-badge&logo=azure-functions&logoColor=white" height="50"></a>
-<a href="https://www.finops.org/"><img src="https://img.shields.io/badge/💲_TCO_REDUCTION-E95420?style=for-the-badge&logo=square-terminal&logoColor=white" height="50"></a>
-
-## 🎯 Project Objective
-To demonstrate the deployment of a **Platform as a Service (PaaS)** solution and the implementation of a modern **CI/CD (Continuous Integration/Continuous Deployment)** pipeline. This project focuses on accelerating the **Developer Velocity** by automating the release cycle and leveraging serverless architecture for global scalability.
+[![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://azure.microsoft.com/)
+[![DevOps](https://img.shields.io/badge/DevOps-GitHub_Actions-blue?style=for-the-badge)](https://github.com/features/actions)
+[![Security](https://img.shields.io/badge/Security-Deployment_Control-green?style=for-the-badge)](https://learn.microsoft.com/)
+[![Serverless](https://img.shields.io/badge/Serverless-PaaS-orange?style=for-the-badge)](https://learn.microsoft.com/)
 
 ---
 
-## 🛠️ Technical Stack & Tools
-| Category | Tools Used |
-| :--- | :--- |
-| **Cloud Service** | Azure Static Web Apps (PaaS) |
-| **Automation** | GitHub Actions |
-| **Version Control** | Git / GitHub |
-| **Deployment Flow** | Continuous Deployment (CD) |
-| **Global Reach** | Azure Content Delivery Network (CDN) |
+## 🎯 Objective
+
+Design and implement a **secure application deployment pipeline** that automates delivery while maintaining **controlled access, auditability, and consistency**.
+
+This project demonstrates how CI/CD pipelines integrate with **Identity and Access Management (IAM)** to ensure deployments are authorised, traceable, and aligned to **least privilege principles**.
 
 ---
 
-## 🚀 Phase 1: Automated DevOps Lifecycle
-To eliminate manual deployment bottlenecks, I implemented a "Push-to-Deploy" model. By integrating Azure Static Web Apps with the GitHub repository, I established a **Production-Ready CI/CD pipeline** that ensures consistency between the source code and the live environment.
+## 🧠 Design Rationale
 
+The solution is designed to ensure that **application deployment is controlled, repeatable, and secure**.
 
+- **Controlled Deployment Flow:** Code changes are only deployed through version-controlled pipelines  
+- **Identity-Based Access:** Deployment permissions are governed through repository and platform access controls  
+- **Automation:** Eliminates manual deployment risk and enforces consistent processes  
+- **Serverless Architecture:** Reduces infrastructure exposure and operational overhead  
 
-### 1. GitHub Actions Pipeline Orchestration
-Every commit to the `main` branch triggers an automated workflow. This process validates the code and synchronizes changes to the cloud automatically, significantly reducing the **Time-to-Market** and minimising human error during deployments.
+This reflects a move from **manual deployment processes** to **controlled, identity-driven release management**.
 
-<br>
+---
+
+## 🔐 IAM & Security Alignment
+
+This implementation supports key IAM principles:
+
+- **Controlled Access:** Only authorised users can trigger or approve deployments  
+- **Auditability:** All changes are tracked through version control and pipeline execution logs  
+- **Least Privilege:** Deployment permissions are restricted to required roles only  
+- **Operational Integrity:** Prevents unauthorised or inconsistent changes to production environments  
+
+---
+
+## 🛠️ Technical Stack
+
+| Category | Tools Used | Security Relevance |
+| :--- | :--- | :--- |
+| **Cloud Platform** | Azure Static Web Apps | Managed hosting with reduced attack surface |
+| **CI/CD** | GitHub Actions | Controlled and automated deployment pipeline |
+| **Version Control** | Git / GitHub | Source of truth and change tracking |
+| **Deployment Model** | Continuous Deployment | Consistent and repeatable release process |
+| **Delivery** | Azure CDN | Secure, global content distribution |
+
+---
+
+## 📌 Implementation
+
+### 1. CI/CD Pipeline Automation
+
+A **GitHub Actions workflow** was configured to automate application deployment.
+
+- Trigger: Push to `main` branch  
+- Action: Build and deploy application to Azure  
+- Outcome: Eliminates manual deployment and ensures consistency  
 
 ![GitHub Actions Success](images/github-actions-success.png)
-> **Figure 1:** Successful execution of the GitHub Actions workflow, demonstrating automated build and deployment jobs.
+
+> Automated pipeline ensures controlled and repeatable deployments.
 
 ---
 
-## 💻 Phase 2: Serverless Application Hosting (PaaS)
-By adopting a **Platform as a Service (PaaS)** model, I offloaded the "Undifferentiated Heavy Lifting"-OS patching, web server maintenance, and hardware management to Microsoft Azure. This architectural choice allows for maximum focus on application logic and user experience.
+### 2. Secure Application Hosting (PaaS)
 
-### 2. Managed Infrastructure Overview
-The Azure Static Web App resource acts as a managed endpoint. Because it is serverless, it provides **Native High Availability** and **Auto-Scaling**, ensuring the application remains responsive during traffic spikes without manual intervention.
+The application is hosted using **Azure Static Web Apps**, removing the need for infrastructure management.
 
-<br>
+#### Security Benefits
+- No direct server access required  
+- Reduced attack surface compared to IaaS hosting  
+- Built-in scaling and availability  
 
 ![Azure Portal View](images/azure-portal-resource-view.png)
-> **Figure 2:** Azure Resource Management view, showcasing the direct link between the cloud environment and source control.
 
-### 3. Global Distribution & Edge Performance
-The application is deployed across Azure’s **Global Content Delivery Network (CDN)**. By caching content at "Edge locations" closer to the end-user, the architecture minimises latency and provides a high-performance experience on a global scale.
+---
 
-<br>
+### 3. Global Distribution & Performance
+
+The application is delivered through Azure’s global CDN, ensuring:
+
+- Low latency  
+- High availability  
+- Consistent user experience  
 
 ![Website Preview](images/website-deployment-preview.png)
-> **Figure 3:** The live production environment, verified and accessible via a globally distributed URL.
 
 ---
 
-## 🧠 Key Cloud Governance Concepts
-* **PaaS Efficiency:** Leveraged managed services to achieve **Zero-Touch Maintenance**, reducing the total cost of ownership (TCO).
-* **Operational Excellence:** Utilized **GitHub Actions** to enforce standardised deployment workflows.
-* **Global Reach:** Demonstrated the ability to host content at the **Network Edge** for improved performance and reliability.
-* **Serverless Cost Optimization:** Shifted from "Always-on" IaaS costs to a PaaS consumption model, optimising cloud spend for static workloads.
+## ⚖️ Design Considerations & Trade-offs
+
+- Fully automated deployments improve speed but require strong access control on source repositories  
+- CI/CD pipelines introduce dependency on workflow configuration and maintenance  
+- Serverless architecture reduces control over infrastructure but improves security and scalability  
 
 ---
 
-## 🧹 Post-Project Lifecycle Management
-In alignment with **Cloud Financial Management (FinOps)** best practices, all project resources were decommissioned following validation to eliminate unnecessary costs and ensure clean environment hygiene.
+## 🎯 Outcome
 
----
-*Created by Jacob Adedoyin | Azure 900 Portfolio*
+This project demonstrates how **deployment processes can be secured through IAM principles**, introducing:
+
+- Controlled and auditable release processes  
+- Reduced risk of unauthorised changes  
+- Consistent deployment workflows  
+- Scalable and secure application delivery  
