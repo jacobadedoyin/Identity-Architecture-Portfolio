@@ -1,55 +1,67 @@
-# ☁️ Microsoft Azure Technical Portfolio (AZ-900)
-**Foundations of Cloud Architecture, Governance, and Modern Deployment**
+# ☁️ Azure Identity, Security & Governance Foundations
+**Cloud Foundations Supporting Identity, Access Control, and Secure Architecture**
 
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
-[![DevOps](https://img.shields.io/badge/DevOps-Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
-[![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![Identity](https://img.shields.io/badge/Identity-Entra_ID-black?style=for-the-badge)](https://learn.microsoft.com/)
+[![Security](https://img.shields.io/badge/Security-Zero_Trust-green?style=for-the-badge)](https://learn.microsoft.com/)
 [![Governance](https://img.shields.io/badge/Governance-Policy-00C853?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/en-us/azure/governance/)
 
 ---
 
-## 📌 Executive Summary
-This repository validates my practical mastery of the **Microsoft Azure Fundamentals (AZ-900)** curriculum. Moving beyond theory, I have architected and deployed functional cloud environments to demonstrate the core principles of **Scalability**, **High Availability**, and **Cloud Governance**.
+## 📌 Overview
 
-These projects serve as a proof-of-concept for the **Azure Well-Architected Framework**, translating abstract concepts into secure, running infrastructure.
+This repository demonstrates practical implementation of **Azure cloud foundations**, with a focus on **identity-aware design, access control, and governance**.
+
+Rather than theoretical learning, these projects showcase deployed environments that reflect real-world considerations such as **least privilege access, resource governance, and secure service configuration**.
+
+The work aligns with principles from the **Azure Well-Architected Framework**, with emphasis on **security, governance, and operational control**.
 
 ---
 
-## 🏗️ Featured Projects
+## 🏗️ Project Structure
 
-| Project | Focus Area | Key Technologies | Business Value |
+| Project | Focus Area | Key Concepts | IAM / Security Relevance |
 | :--- | :--- | :--- | :--- |
-| **[Project 01: Governance & Compliance](./01-Governance-and-Organisation)** | **Cloud Governance** | Resource Groups, Tagging Policies, Management Locks | Prevents accidental data loss and ensures accurate financial chargebacks. |
-| **[Project 02: IaaS Compute & Networking](./02-IaaS-Compute-and-Networking)** | **Infrastructure (IaaS)** | Virtual Machines (Linux), VNet Segmentation, NSG Rules | Demonstrates secure, isolated compute power without hardware overhead. |
-| **[Project 03: PaaS & DevOps Automation](./03-PaaS-Automation-Deployment)** | **Modern Apps (PaaS)** | Azure Static Web Apps, GitHub Actions (CI/CD) | Accelerates time-to-market by automating deployment from code to cloud. |
+| **[Governance & Organisation](./01-Governance-and-Organisation)** | Cloud Governance | Resource Groups, Tagging, Locks | Enforces control, supports cost accountability, prevents misconfiguration |
+| **[IaaS Compute & Networking](./02-IaaS-Compute-and-Networking)** | Infrastructure Security | VMs, VNets, NSGs | Demonstrates network isolation and controlled access aligned to least privilege |
+| **[PaaS & Automation Deployment](./03-PaaS-Automation-Deployment)** | Secure Deployment | CI/CD, Web Apps | Shows controlled deployment pipelines and secure application delivery |
 
 ---
 
-## 🛠️ Technical Skills Matrix
+## 🔐 Identity, Security & Governance Focus
 
-### ☁️ Cloud Concepts & Architecture
-* **Service Models:** Practical implementation of **IaaS** (VMs) for control vs. **PaaS** (Web Apps) for productivity.
-* **Global Infrastructure:** Leveraging **Regions** and **Availability Zones** to design resilient applications.
-* **Scalability:** Understanding the difference between Vertical Scaling (Scale Up) and Horizontal Scaling (Scale Out).
+### Identity & Access
+- Use of **Microsoft Entra ID** for identity and access control  
+- Practical validation of **Role-Based Access Control (RBAC)**  
+- Alignment of resource access with **least privilege principles**
 
-### 🔐 Security & Identity
-* **Network Hardening:** Implementing "Zero Trust" basics using **Network Security Groups (NSGs)** to whitelist only necessary traffic (SSH/HTTP).
-* **Identity Management:** Managing access via **Entra ID** (formerly Azure AD) and verifying **Role-Based Access Control (RBAC)**.
-* **Compliance:** Using **Resource Locks** (`CanNotDelete`) to enforce operational security on critical assets.
+### Security Controls
+- Implementation of **Network Security Groups (NSGs)** to restrict inbound traffic  
+- Segmentation of resources to reduce attack surface  
+- Application of **Zero Trust principles** at infrastructure level  
 
-### 💰 Cloud Economics (FinOps)
-* **Cost Accountability:** Implementing a strategic **Tagging Taxonomy** (e.g., `CostCenter: IT`) to allocate spend accurately.
-* **OpEx vs. CapEx:** Optimizing costs by selecting the appropriate consumption-based model (Serverless) over fixed provisioning.
+### Governance & Control
+- Use of **resource locks** to prevent accidental or unauthorised changes  
+- Implementation of **tagging strategies** to support cost allocation and organisational structure  
+- Alignment of governance controls with operational and financial accountability  
+
+---
+
+## 🎓 Certification Context
+
+This work supports foundational knowledge aligned to **Microsoft Azure Fundamentals (AZ-900)**, with emphasis on **practical application rather than theoretical coverage**.
+
+**Credential:**  
+https://learn.microsoft.com/en-us/users/jacobadedoyin-7806/transcript/7kngmcp55pmy5w5
 
 ---
 
-## 🎓 Certification Alignment (AZ-900)
-This portfolio provides practical evidence for the core assessment areas of the Microsoft Azure Fundamentals exam:
-* **Credentials:** [Official Microsoft Transcript](https://learn.microsoft.com/en-us/users/jacobadedoyin-7806/transcript/7kngmcp55pmy5w5)
+## 🎯 Purpose
 
-* ✅ **Describe Azure Management & Governance:** RBAC, Locks, Tags, and Cost Management (Project 01).
-* ✅ **Describe Cloud Concepts:** High Availability, Scalability, and Elasticity (Project 02).
-* ✅ **Describe Azure Architecture & Services:** VNets, VMs, and Web Apps (Projects 02 & 03).
+This repository demonstrates foundational cloud capability supporting progression into:
 
+- Identity and Access Management (IAM)  
+- Access Governance  
+- Cloud Security Engineering  
 
----
+with a focus on **secure, controlled, and well-governed environments**.
