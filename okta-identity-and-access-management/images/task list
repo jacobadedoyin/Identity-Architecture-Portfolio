@@ -1,0 +1,14 @@
+OKTA TASKS
+Create Okta developer account
+Create internal and external test users
+Create security groups (Finance-Users, Finance-Admins, External-Partners)
+Assign users to groups using RBAC model
+Configure SAML or OIDC application integration
+Assign application access via groups only
+Enable MFA policy for users
+Configure authentication factor (Okta Verify or OTP)
+Apply sign-on policies for access control
+Enforce MFA for privileged users
+Test successful login flow for valid user
+Test blocked login for unauthorised user
+Capture evidence of users, groups, MFA, and SSO
