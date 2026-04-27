@@ -1,73 +1,130 @@
-# Identity Architecture Portfolio
+# Cloud-Security-and-IAM-Portfolio
 
-This repository represents an **Identity & Access Management (IAM) engineering portfolio**, focused on designing and implementing secure identity systems across **Azure and Okta** for **regulated enterprise environments**.
+This repository is a cloud, identity, and security portfolio focused on practical Azure administration, identity and access management, secure data access, analytics platform management, and secure transfer operations.
 
-It demonstrates practical capability across:
+It demonstrates capability across:
 
-- Identity governance and lifecycle management  
-- Role-Based Access Control (RBAC) design  
-- Multi-Factor Authentication (MFA) enforcement  
-- Conditional Access and policy-based security controls  
-- Cross-platform identity management (Azure + Okta)  
-- Access governance aligned to compliance and risk requirements  
+- Azure cloud engineering and administration
+- Microsoft Entra ID identity and access controls
+- Azure security foundations and certification-aligned labs
+- Okta identity and access management
+- Secure data access architecture
+- Qlik and Tableau platform management
+- MOVEit secure file transfer operations
+- Access governance, joiner / mover / leaver processes, and least privilege design
+- Safe evidence handling using sanitised artefacts and templates
 
----
+## Portfolio Structure
 
-## 🧠 Portfolio Architecture
+| Area | Focus |
+|---|---|
+| `Projects/azure-cloud-engineering/` | Azure administration, Microsoft Entra ID, security foundations, certification evidence, and Azure lab work |
+| `Projects/data-analytics-platform-management/` | Qlik and Tableau platform management, JML workflows, access requests, licence tracking, and support processes |
+| `Projects/identity-security-architecture/` | Okta IAM, secure financial data access architecture, and MOVEit secure file transfer operations |
 
-This portfolio is structured across four IAM engineering domains:
+## Azure Cloud Engineering
 
-### 🔐 Identity Architecture (Design Layer)
-- IAM system design for financial and regulated environments  
-- Access control modelling and RBAC strategy  
-- Security boundary definition using identity principles  
+This section demonstrates Azure cloud engineering capability across administration, identity, security foundations, and certification-aligned practical labs.
 
-### ⚙️ Governance Engineering (Control Layer)
-- Azure identity governance implementation  
-- Conditional Access policy enforcement  
-- MFA and access policy configuration  
+It covers:
 
-### ☁️ Cloud Identity Foundations (Infrastructure Layer)
-- Azure Entra ID configuration and administration  
-- Network and compute security foundations  
-- Identity integration with cloud services  
+- Azure administration and operations
+- Microsoft Entra ID identity governance
+- Conditional Access and access control concepts
+- Azure security foundations
+- AZ-900 and SC-900 certification evidence
+- AZ-104-aligned lab and project evidence
 
-### 🔐 SaaS Identity Management (Okta Layer)
-- Application SSO integration  
-- MFA and sign-on policy enforcement  
-- Group-based access control in SaaS environments  
+Folder:
 
----
+```text
+Projects/azure-cloud-engineering/
+```
 
-## 🏛️ Enterprise IAM Experience
+## Data Analytics Platform Management
 
-### Technical Implementation: MFA & Access Governance
+This section demonstrates platform management responsibilities across Qlik and Tableau reporting environments.
 
-Delivered enterprise-grade authentication and access control improvements through implementation of Multi-Factor Authentication (MFA) and identity lifecycle governance processes.
+It covers:
 
-#### Key Contributions
-- Implemented authentication policies for secure internal and external access  
-- Integrated MFA into identity lifecycle (Joiners, Movers, Leavers)  
-- Standardised identity operations through documentation and SOPs  
-- Supported secure access to sensitive enterprise systems  
-- Reduced access risk through least privilege enforcement  
+- User access management
+- Joiner, mover, and leaver workflows
+- Access request handling
+- Licence tracking and recovery
+- Access review support
+- Support process improvement
+- Sanitised evidence and reusable templates
 
----
+Folder:
 
-## 🎯 Core IAM Capabilities Demonstrated
+```text
+Projects/data-analytics-platform-management/
+```
 
-- Identity lifecycle management (JML)  
-- RBAC design and implementation  
-- MFA and Conditional Access enforcement  
-- Access governance and audit readiness  
-- Secure identity architecture design  
-- Cross-platform IAM (Azure + Okta)  
+## Identity Security Architecture
 
----
+This section demonstrates identity, access control, secure data access, and secure platform operations.
 
-## 📌 Portfolio Structure
+It covers:
 
-- Azure Identity Security Foundations → cloud IAM baseline  
-- Azure Identity Governance Engineering → policy + enforcement layer  
-- Identity Architecture (Financial Access Control) → system design  
-- Okta Identity Management → SaaS IAM implementation  
+- Okta identity and access management
+- Secure financial data access architecture
+- RBAC and least privilege design
+- Secure file transfer platform operations using MOVEit
+- Secure folder hierarchy and permission models
+- Controlled access to sensitive environments
+
+Folder:
+
+```text
+Projects/identity-security-architecture/
+```
+
+## Core Skills Demonstrated
+
+| Skill Area | Evidence |
+|---|---|
+| Azure administration | Azure operations, security foundations, AZ-104-aligned labs |
+| Identity and access management | Microsoft Entra ID, Okta, RBAC, MFA, Conditional Access, JML |
+| Secure data access | Financial data access architecture, least privilege, access control models |
+| Analytics platform management | Qlik/Tableau access workflows, licence tracking, platform support |
+| Secure file transfer operations | MOVEit administration, migration, permissions, secure hierarchy design |
+| Governance and evidence | Access reviews, templates, workflow diagrams, sanitised evidence handling |
+
+## Evidence Approach
+
+This portfolio uses a mixture of:
+
+- Recreated diagrams
+- Sanitised templates
+- Public-safe certificates
+- Lab evidence
+- Concept architecture
+- Work-based summaries with confidential details removed
+
+No confidential organisational information is included.
+
+The repository does not include:
+
+- Real user data
+- Client information
+- Internal URLs
+- Tenant IDs
+- Production secrets
+- Ticket references
+- Real sign-in logs
+- Internal SOPs
+- Confidential operational procedures
+
+## Purpose
+
+The purpose of this portfolio is to show practical capability across cloud, identity, and security work.
+
+It is designed to evidence both:
+
+- Certification-aligned learning and labs
+- Real workplace-aligned platform, access, and operational responsibilities
+
+## Maintainer
+
+Maintained by Jacob Adedoyin.
