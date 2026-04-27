@@ -23,7 +23,7 @@ The work covered:
 | Movers | Updating access when users changed role, team, reporting requirement, or access need |
 | Leavers | Supporting user removal, licence clean-up, and offboarding to reduce stale access risk |
 | Licence Management | Tracking licence allocation, visibility, recovery, and review activity |
-| Access Reviews | Creating access review requirements and matrices to help stakeholders validate access |
+| Access Reviews | Defining review requirements and using matrices to help stakeholders validate access |
 | Platform Support | Improving support guidance and repeatable administration processes |
 
 Although this was not Azure-native IAM, it supported access governance by making analytics platform access management more controlled, documented, and repeatable.
@@ -52,9 +52,8 @@ This included:
 | Platform operations | Supported day-to-day administration across analytics platforms |
 | Access management | Managed access requests and platform user changes |
 | JML lifecycle support | Created lifecycle workflows for onboarding, access changes, and offboarding |
-| Access review requirements | Defined review expectations and validation criteria for analytics platform access |
-| Access review matrices | Created matrices to help stakeholders and support teams validate access needs |
-| Licence management | Improved licence tracking, visibility, and recovery |
+| Access review support | Created review requirements and matrices to help validate access needs |
+| Licence management | Improved licence tracking, visibility, review, and recovery |
 | Support process improvement | Made common platform tasks easier for support teams to follow |
 | Documentation | Created reusable guidance, workflows, matrices, and templates |
 | Access governance | Reduced stale access risk and improved process consistency |
@@ -78,33 +77,29 @@ This work improved analytics platform management by introducing clearer processe
 
 The project improved control over analytics platform access by making lifecycle and review activity more structured.
 
-Key improvements included:
-
 | Control Area | Improvement |
 |---|---|
 | Joiner process | Created a more repeatable approach for setting up new platform users |
 | Mover process | Improved how access changes were handled when roles, teams, or reporting needs changed |
 | Leaver process | Supported user removal and licence recovery to reduce stale access risk |
-| Licence tracking | Improved visibility of assigned, available, and recovered licences |
-| Access reviews | Created review requirements to help validate whether access was still appropriate |
+| Licence tracking | Improved visibility of assigned, available, reviewed, and recovered licences |
+| Access reviews | Defined review requirements to help validate whether access was still appropriate |
 | Stakeholder validation | Created matrices to help stakeholders confirm access needs and ownership |
 | Support consistency | Created guidance to reduce ambiguity for support teams |
 | Evidence handling | Used sanitised templates and diagrams instead of confidential operational records |
 
 ## Evidence Pack
 
-This project uses recreated and sanitised evidence only. Internal SOPs and real platform screenshots are not included.
+This project uses recreated and sanitised evidence only. Internal SOPs, internal access review documents, access matrices, and real platform screenshots are not included.
 
-Evidence is represented through:
+Access review requirements and stakeholder matrices are represented through sanitised workflows, checklists, and licence tracking templates rather than internal documents.
 
 | Evidence Item | Location | Purpose |
 |---|---|---|
 | JML workflow diagram | `diagrams/jml-workflow.md` | Shows the high-level joiner, mover, and leaver access process |
-| Licence tracker template | `templates/licence-tracker-template.md` | Demonstrates how licence allocation, review, and recovery can be tracked |
-| JML checklist template | `templates/jml-checklist-template.md` | Shows a repeatable structure for onboarding, access changes, and offboarding |
 | Access request template | `templates/access-request-template.md` | Demonstrates controlled access request handling |
-| Access review requirements template | `templates/access-review-requirements-template.md` | Shows how access review expectations and validation criteria can be documented |
-| Stakeholder access matrix template | `templates/stakeholder-access-matrix-template.md` | Demonstrates how support teams and stakeholders can validate access ownership and requirements |
+| JML checklist template | `templates/jml-checklist-template.md` | Shows a repeatable structure for onboarding, access changes, offboarding, and review checks |
+| Licence tracker template | `templates/licence-tracker-template.md` | Demonstrates how licence allocation, review, and recovery can be tracked |
 | Evidence summary | `evidence/evidence-summary.md` | Explains the sanitisation and evidence approach used for this project |
 
 ## Example JML Workflow
