@@ -1,204 +1,67 @@
-# 🏦 Enterprise IAM Architecture for Financial Data Access & Governance
-**Identity Lifecycle, Access Control, and Security Design for Regulated Environments**
+# Secure Financial Data Access Architecture
 
----
+## Overview
 
-## 📌 Overview
+This project is a concept architecture for securing access to sensitive financial data platforms in a regulated environment.
 
-This project presents a practical Identity and Access Management (IAM) architecture designed to secure access to **sensitive financial data platforms** within a regulated environment.
+The design focuses on identity and access management, role-based access control, Conditional Access, least privilege, auditability, and access governance.
 
-The design reflects real-world IAM challenges including:
+This project is included as a portfolio architecture exercise to demonstrate how identity controls can be designed around sensitive data access.
 
-- Managing internal and external identities  
-- Securing access to financial and analytics platforms  
-- Enforcing strong authentication and access control  
-- Supporting auditability and regulatory compliance  
+## Project Type
 
-The solution is centred around **Microsoft Entra ID**, with a focus on **identity lifecycle management, RBAC design, and access governance**.
+Concept architecture / portfolio design exercise.
 
----
+This is a recreated architecture model used to demonstrate IAM, RBAC, Conditional Access, access reviews, and secure data access design. It does not include confidential organisational architecture, live tenant configuration, real user data, or internal system details.
 
-## 🎯 Objectives
+## Architecture Focus
 
-- Design a secure IAM architecture for financial data access  
-- Enforce strong authentication using Multi-Factor Authentication (MFA)  
-- Implement role-based access control (RBAC) aligned to least privilege  
-- Support identity lifecycle processes (Joiners, Movers, Leavers)  
-- Enable access governance through reviews and auditing  
-- Align with regulatory and data security requirements  
+The architecture is centred around Microsoft Entra ID as the identity provider and control point for access to sensitive financial data platforms.
 
----
+The design covers:
 
-## 🏗️ Architecture Diagram
+- Internal and external identity access
+- Strong authentication using MFA
+- Conditional Access policy enforcement
+- Group-based role assignment
+- Role-based access control
+- Least privilege access design
+- Joiner, mover, and leaver lifecycle considerations
+- Access reviews and governance
+- Audit logging and monitoring
 
-![IAM Architecture](./images/architecture-diagram.png)
+## Architecture Diagram
 
----
+![Secure Financial Data Access Architecture](./images/architecture-diagram.png)
 
-## 🔍 Architecture Explanation
+## Design Objectives
 
-This architecture centralises identity through Microsoft Entra ID, enforcing authentication and access control across financial data platforms.
+| Objective | Description |
+|---|---|
+| Centralise identity | Use Microsoft Entra ID as the central identity control plane |
+| Enforce strong authentication | Require MFA for access to sensitive data platforms |
+| Apply Conditional Access | Evaluate access based on signals such as user, device, location, and risk |
+| Use RBAC | Assign access through roles and groups rather than direct user permissions |
+| Support least privilege | Ensure users only receive access required for their role |
+| Support JML processes | Consider how access is created, changed, and removed across the user lifecycle |
+| Improve auditability | Ensure access activity can be logged, reviewed, and evidenced |
+| Support access reviews | Enable periodic validation of access to sensitive data platforms |
 
-- Users authenticate via Entra ID with MFA enforced  
-- Conditional Access evaluates risk (device, location, behaviour)  
-- Access is granted via group-based RBAC  
-- Applications are accessed through controlled identity flows  
-- All activity is logged for audit and compliance  
+## Access Flow
 
----
-
-## 🔄 Access Flow
-
-1. User signs in via Microsoft Entra ID  
-2. Conditional Access evaluates:
-   - Location  
-   - Device compliance  
-   - Risk signals  
-3. Multi-Factor Authentication is enforced  
-4. User is mapped to RBAC groups  
-5. Access to applications is granted based on role  
-6. Activity is logged and monitored  
-
----
-
-## 🔐 Access Model Design
-
-### Role-Based Access Control (RBAC)
-
-Access is assigned through **security groups**, not directly to users.
-
-#### Example Role Structure
-
-| Role | Access Scope |
-|------|-------------|
-| Data Analyst | Read access to financial datasets |
-| Finance Manager | Read/write access to reporting systems |
-| Platform Admin | Full administrative access |
-| External Partner | Restricted dataset access |
-
----
-
-### Key Principles
-
-- **Least Privilege:** Minimal required access  
-- **Separation of Duties:** Admin vs user roles  
-- **Scalability:** Group-based access model  
-- **Consistency:** Standardised role assignment  
-
----
-
-## 🔄 Identity Lifecycle (JML)
-
-### Joiners
-- Provisioned in Entra ID  
-- Assigned to role-based groups  
-- Access granted automatically  
-
-### Movers
-- Role changes trigger group updates  
-- Old access removed  
-- New access applied  
-
-### Leavers
-- Immediate account disablement  
-- Removal from all access groups  
-- Full access revocation  
-
----
-
-## 🔐 Authentication & Security Controls
-
-### Multi-Factor Authentication (MFA)
-
-- Enforced for all users accessing sensitive systems  
-- Additional controls for privileged users  
-
----
-
-### Conditional Access (Conceptual)
-
-- Restrict access by location  
-- Require compliant devices  
-- Enforce risk-based authentication  
-
----
-
-## 📊 Access Governance
-
-### Access Reviews
-
-- Periodic validation of user permissions  
-- Removal of unnecessary access  
-- Focus on privileged and external users  
-
----
-
-### Auditing & Monitoring
-
-- Logging of authentication and access events  
-- Monitoring for suspicious activity  
-- Support for compliance and audit reporting  
-
----
-
-## 👤 Example Access Scenario
-
-**User:** Data Analyst (Internal)
-
-1. User signs into Entra ID  
-2. Conditional Access checks:
-   - Approved location  
-   - Compliant device  
-3. MFA is required  
-4. User is part of `Finance-Analysts` group  
-5. RBAC grants read access to reporting platform  
-
-**Outcome:**  
-User can securely access financial reports but cannot modify data.
-
----
-
-## 🔐 Example Conditional Access Policy
-
-- **Target:** Users accessing financial applications  
-- **Controls:**
-  - Require MFA  
-  - Require compliant device  
-  - Restrict access from non-approved locations  
-- **Exception:** Break-glass accounts (monitored)  
-
----
-
-## 🧠 Key Design Principles
-
-- Security-first, Zero Trust aligned  
-- Identity as the primary control plane  
-- Least privilege by default  
-- Full auditability of access  
-- Scalable enterprise design  
-
----
-
-## 🔮 Future Enhancements
-
-- Privileged Identity Management (PIM) integration  
-- Automated access request workflows  
-- Advanced risk-based Conditional Access  
-- Integration with access governance platforms  
-
----
-
-## 🎯 Outcome
-
-This project demonstrates a structured IAM architecture combining:
-
-- Identity lifecycle management  
-- Secure authentication controls  
-- Role-based access design  
-- Governance and compliance enforcement  
-
-It reflects real-world IAM design considerations relevant to **financial services and regulated environments**.
-
----
-
-*Maintained by Jacob Adedoyin*
+```text
+User signs in
+        ↓
+Microsoft Entra ID authenticates user
+        ↓
+Conditional Access policies evaluate request
+        ↓
+MFA is enforced where required
+        ↓
+User group membership is checked
+        ↓
+RBAC role determines access scope
+        ↓
+Financial data platform access is granted or denied
+        ↓
+Activity is logged for audit and review
