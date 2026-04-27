@@ -1,27 +1,101 @@
-# Evidence Summary
+# Data Analytics Platform Management
 
-## Purpose
+## Overview
 
-This evidence summary explains how the Data Analytics Platform Management project is evidenced safely for a public portfolio.
+This project demonstrates data analytics platform management responsibilities across Qlik and Tableau reporting environments.
 
-The project is based on platform management responsibilities across Qlik and Tableau reporting environments, including access management, joiner / mover / leaver activity, licence tracking, support processes, and operational documentation.
+The work focused on improving how analytics platform access, user lifecycle activity, licence usage, access reviews, support processes, and operational documentation were managed. The aim was to make platform administration more consistent, repeatable, easier to support, and easier to evidence.
 
-## Evidence Approach
+## Platforms Covered
 
-This project uses recreated and sanitised evidence only.
+- Qlik
+- Tableau
 
-Internal SOPs, live screenshots, user records, system URLs, ticket references, licence counts, and confidential operational details are not included.
+## Project Context
 
-Instead, the project is evidenced through:
+This work sat within application-level identity and access management because it involved managing the user access lifecycle across analytics platforms.
 
-- High-level workflow diagrams
-- Generic access request templates
-- Joiner / mover / leaver checklist templates
-- Licence tracker templates using dummy data
-- Process summaries
-- Confidentiality notes
+The work covered:
 
-## Evidence Included
+| Area | Description |
+|---|---|
+| Joiners | Setting up new users, assigning appropriate platform access, and following a repeatable onboarding process |
+| Movers | Updating access when users changed role, team, reporting requirement, or access need |
+| Leavers | Supporting user removal, licence clean-up, and offboarding to reduce stale access risk |
+| Licence Management | Tracking licence allocation, visibility, recovery, and review activity |
+| Access Reviews | Creating access review requirements and matrices to help stakeholders validate access |
+| Platform Support | Improving support guidance and repeatable administration processes |
+
+Although this was not Azure-native IAM, it supported access governance by making analytics platform access management more controlled, documented, and repeatable.
+
+## My Role
+
+I owned day-to-day platform management activity across Qlik and Tableau.
+
+This included:
+
+- Managing user access
+- Supporting joiner, mover, and leaver activity
+- Tracking licences
+- Handling access requests
+- Improving platform administration workflows
+- Creating lifecycle process documentation
+- Creating access review requirements
+- Creating access review matrices for support teams and stakeholders
+- Creating support guidance and process documentation
+- Reducing reliance on informal process knowledge
+
+## Areas Covered
+
+| Area | Work Completed |
+|---|---|
+| Platform operations | Supported day-to-day administration across analytics platforms |
+| Access management | Managed access requests and platform user changes |
+| JML lifecycle support | Created lifecycle workflows for onboarding, access changes, and offboarding |
+| Access review requirements | Defined review expectations and validation criteria for analytics platform access |
+| Access review matrices | Created matrices to help stakeholders and support teams validate access needs |
+| Licence management | Improved licence tracking, visibility, and recovery |
+| Support process improvement | Made common platform tasks easier for support teams to follow |
+| Documentation | Created reusable guidance, workflows, matrices, and templates |
+| Access governance | Reduced stale access risk and improved process consistency |
+
+## Key Improvements
+
+This work improved analytics platform management by introducing clearer processes for:
+
+- User onboarding
+- Access changes
+- User removal
+- Licence recovery
+- Access request handling
+- Access review preparation
+- Stakeholder access validation
+- Platform support guidance
+- Repeatable administration tasks
+- Documented operating processes
+
+## Governance and Control Improvements
+
+The project improved control over analytics platform access by making lifecycle and review activity more structured.
+
+Key improvements included:
+
+| Control Area | Improvement |
+|---|---|
+| Joiner process | Created a more repeatable approach for setting up new platform users |
+| Mover process | Improved how access changes were handled when roles, teams, or reporting needs changed |
+| Leaver process | Supported user removal and licence recovery to reduce stale access risk |
+| Licence tracking | Improved visibility of assigned, available, and recovered licences |
+| Access reviews | Created review requirements to help validate whether access was still appropriate |
+| Stakeholder validation | Created matrices to help stakeholders confirm access needs and ownership |
+| Support consistency | Created guidance to reduce ambiguity for support teams |
+| Evidence handling | Used sanitised templates and diagrams instead of confidential operational records |
+
+## Evidence Pack
+
+This project uses recreated and sanitised evidence only. Internal SOPs and real platform screenshots are not included.
+
+Evidence is represented through:
 
 | Evidence Item | Location | Purpose |
 |---|---|---|
@@ -29,50 +103,25 @@ Instead, the project is evidenced through:
 | Licence tracker template | `templates/licence-tracker-template.md` | Demonstrates how licence allocation, review, and recovery can be tracked |
 | JML checklist template | `templates/jml-checklist-template.md` | Shows a repeatable structure for onboarding, access changes, and offboarding |
 | Access request template | `templates/access-request-template.md` | Demonstrates controlled access request handling |
+| Access review requirements template | `templates/access-review-requirements-template.md` | Shows how access review expectations and validation criteria can be documented |
+| Stakeholder access matrix template | `templates/stakeholder-access-matrix-template.md` | Demonstrates how support teams and stakeholders can validate access ownership and requirements |
+| Evidence summary | `evidence/evidence-summary.md` | Explains the sanitisation and evidence approach used for this project |
 
-## What This Evidence Demonstrates
+## Example JML Workflow
 
-This evidence demonstrates:
-
-- Data analytics platform management
-- Application-level IAM awareness
-- Joiner, mover, and leaver lifecycle support
-- User access administration
-- Licence tracking and recovery
-- Access request handling
-- Offboarding control
-- Repeatable support processes
-- Stale access risk reduction
-- Safe evidence handling
-
-## Evidence Not Included
-
-The following items are not included because they may expose confidential information:
-
-- Internal SOPs
-- Real platform screenshots
-- User names
-- Email addresses
-- Employee IDs
-- Client names
-- Internal ticket references
-- Internal system URLs
-- Real licence counts
-- Commercial licence information
-- Confidential platform configuration details
-
-## Sanitisation Standard
-
-Any evidence added to this project should follow these rules:
-
-| Rule | Requirement |
-|---|---|
-| Use dummy data | Replace real names, emails, IDs, and business data with fake values |
-| Remove internal references | Do not include internal URLs, ticket numbers, system names, or client references |
-| Avoid real screenshots | Use recreated diagrams or heavily sanitised examples instead |
-| Avoid full SOPs | Represent internal processes through high-level workflows and generic templates |
-| Keep evidence generic | Show the control/process without revealing operational detail |
-
-## Confidentiality Note
-
-All evidence in this project is sanitised or recreated for portfolio use. It is intended to demonstrate platform management, access management, licence tracking, and JML process understanding without exposing confidential organisational information.
+```text
+Access request received
+        ↓
+Identify request type
+        ↓
+Joiner / Mover / Leaver
+        ↓
+Validate access requirement
+        ↓
+Apply platform access change
+        ↓
+Update licence tracking
+        ↓
+Confirm completion
+        ↓
+Record evidence / update support notes
