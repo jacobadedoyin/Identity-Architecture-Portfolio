@@ -164,4 +164,4 @@ This section demonstrates Azure cloud engineering capability across identity, go
 
 It supports the wider portfolio by showing both practical workplace-aligned Azure experience and structured technical development through certification-aligned labs.
 
-```
+
