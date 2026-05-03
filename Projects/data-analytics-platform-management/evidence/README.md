@@ -10,10 +10,10 @@ The project is mainly evidenced through recreated workflows, templates, summarie
 
 | Evidence | Purpose |
 | :--- | :--- |
-| `access-governance-summary.md` | Summarises access governance activity across Qlik and Tableau, including access requests, JML support, and least privilege considerations |
-| `licence-management-summary.md` | Summarises licence tracking, license recovery, and license visibility work across analytics platforms |
-| `platform-support-improvement-summary.md` | Summarises support process improvement, documentation, repeatable workflows, and operational consistency |
-| `qlik-deploy-administer-certificate.pdf` | Supports Qlik platform administration and management experience |
+| [Access Governance Summary](./access-governance-summary.md) | Summarises access governance activity across Qlik and Tableau, including access requests, JML support, and least privilege considerations |
+| [Licence Management Summary](./licence-management-summary.md) | Summarises licence tracking, licence recovery, and licence visibility work across analytics platforms |
+| [Platform Support Improvement Summary](./platform-support-improvement-summary.md) | Summarises support process improvement, documentation, repeatable workflows, and operational consistency |
+| [Qlik Deploy and Administer Certificate](./qlik-deploy-administer-certificate.pdf) | Supports Qlik platform administration and management experience |
 
 ---
 
