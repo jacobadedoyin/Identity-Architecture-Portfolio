@@ -65,3 +65,4 @@ RBAC role determines access scope
 Financial data platform access is granted or denied
         ↓
 Activity is logged for audit and review
+```

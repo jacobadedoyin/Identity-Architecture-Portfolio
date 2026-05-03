@@ -108,3 +108,4 @@ User guidance or training provided
 Transfer activity supported
         ↓
 Access reviewed or removed when no longer required
+```

@@ -79,3 +79,4 @@ Action recorded safely
 Follow-up or review completed where required
         ↓
 Guidance updated if process gap identified
+```

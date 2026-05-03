@@ -116,7 +116,6 @@ A containerised workload was deployed using Azure Container Instances.
 - No direct infrastructure management required  
 - Access to resources controlled via identity and configuration  
 
-![ACI Deployment](./images/07-aci-deploy.png)
 
 ---
 

@@ -74,3 +74,4 @@ Retain, downgrade, or remove licence
 Update licence tracker
         ↓
 Record review outcome
+```
