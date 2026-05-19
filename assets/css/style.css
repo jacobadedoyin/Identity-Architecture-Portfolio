@@ -1,0 +1,35 @@
+/* Portfolio page image sizing */
+.markdown-body img,
+main img {
+  max-width: 850px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 24px auto;
+  border-radius: 14px;
+}
+
+/* Keep smaller evidence banners controlled */
+.markdown-body img[src*="evidence"],
+.markdown-body img[src*="maintenance"],
+main img[src*="evidence"],
+main img[src*="maintenance"] {
+  max-width: 760px;
+}
+
+/* Improve page readability */
+.markdown-body,
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Prevent huge visual blocks on mobile */
+@media (max-width: 768px) {
+  .markdown-body img,
+  main img {
+    max-width: 100%;
+    margin: 18px auto;
+  }
+}
